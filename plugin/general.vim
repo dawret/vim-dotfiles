@@ -44,4 +44,5 @@ set noswapfile
 set guifont=Source\ Code\ Pro
 set background=dark
 colorscheme solarized
-
+au BufNewFile,BufRead *.cu set ft=cuda
+au BufNewFile,BufRead *.cuh set ft=cuda
